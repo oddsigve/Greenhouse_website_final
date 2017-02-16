@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Greenhouse</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<!-- No robots allowed -->
+		<meta name="ROBOTS" content="NOINDEX, NOFOLLOW">
+		<!-- stylesheets, fontstyling, firm Icon -->
+		<link href="css/herbRecipeStyle.css" rel="stylesheet" type="text/css">
+		<link href="css/navStyle.css" rel="stylesheet" type="text/css">
+		<link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
+		<link rel="shortcut icon" href="icon/greenhouse_logo.ico"/>
+		<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
+		<link href='http://fonts.googleapis.com/css?family=Raleway:400,200' rel='stylesheet' type='text/css'> 
+  		<link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+	</head>
+	<body>
+		<nav id="nav_background" class="fixed-nav-bar">
+			<h1><a href="index.html"><img src="img/greenhouse2.png" alt="Greenhouse Logo"></a></h1>
+			<ul>
+				<li><a href="basil.html">Basil</a></li>
+				<li><a href="chili.html">Chili</a></li>
+				<li><a href="chives.html">Chives</a></li>
+				<li><a href="coriander.html">Coriander</a></li>
+				<li><a href="garlic.html">Garlic</a></li>
+				<li><a href="ginger.html">Ginger</a></li>
+				<li><a href="lemon.html">Lemon</a></li>
+				<li><a href="lime.html">Lime</a></li>
+				<li><a href="oregano.html">Oregano</a></li>
+			</ul>
+		</nav>
+		<p id="hamburgerbutton" onClick="hamburger()"></p>
+		<nav style="display: none" id="menu">
+			<ul>
+				<li><a href="basil.html">Basil</a></li>
+				<li><a href="chili.html">Chili</a></li>
+				<li><a href="chives.html">Chives</a></li>
+				<li><a href="coriander.html">Coriander</a></li>
+				<li><a href="garlic.html">Garlic</a></li>
+				<li><a href="ginger.html">Ginger</a></li>
+				<li><a href="lemon.html">Lemon</a></li>
+				<li><a href="lime.html">Lime</a></li>
+				<li><a href="oregano.html">Oregano</a></li>
+			</ul>
+		</nav>
+		<!--The following section is written by candidate number 172-->
+		<img id="splash_chili" src="img/chili_1.png" alt="Picture of Ginger">
+		<section id="herbIntro">
+			<h2>Chili</h2>
+			<p>
+				Chili peppers are amongst the oldest plants that people have grown and used as they are great at adding a hint of “heat” in your food.<span> The earliest traces of the usage of chili date back to over 8000 years ago in South America and it was widely used in ancient Aztec-cuisine. Christopher Columbus likely brought chili to Europe from where it spread to Asia with the Portuguese traders.</span> There has also been speculation that the Vikings used chili for medical purposes based on archaeological findings of traces of capsicum frutescens-chili from 13th century found in Sweden.
+			</p>
+			<img id="drawnImg" src="img/chiliwhite.png" alt="Picture of Chili">
+			<nav>
+				<a href="#recipe"><img src="img/next.png" alt="Picture of an arrow pointing downwards"></a>
+			</nav>
+			<a href="http://www.freepik.com/free-photo/condiments-to-prepare-italian-pasta_972321.htm">Designed by Freepik</a>
+		</section>
+		<!--The following section is written by candidate number 197-->
+		<section id="recipe">
+			<img src="img/chili_dish_1.png" alt="Picture of Chili con carne">
+			<section id="recipeH3">
+				<h3>Chili con carne</h3>
+				<p>
+					4-6 servings / 1 hour
+				</p>
+			</section>
+			<section id="recipeUl">
+				<ul>
+					<li>600 gram lean ground beef</li>
+					<li>1 onion, chopped</li>
+					<li>1 small green bell pepper, chopped</li>
+					<li>2 <a href="garlic.html">garlic</a> cloves, minced</li>
+					<li>400 grams cans red kidney beans, rinsed and drained</li>
+					<li>400 grams cans diced tomatoes</li>
+					<li>2 to 3 tablespoons chili powder</li>
+					<li>1 teaspoon salt</li>
+					<li>1 teaspoon pepper</li>
+				</ul>
+			</section>
+			<ol>
+				<li>Cook first 4 ingredients in a large skillet over medium-high heat, stirring until beef crumbles and is no longer pink; drain. Place mixture in 5-quart slow cooker; stir in beans and remaining ingredients. Cook at HIGH 3 to 4 hours or at LOW 5 to 6 hours.</li>
+				<li>Notes: If you want to thicken this saucy chili, stir in finely crushed saltine crackers until the desired thickness is achieved.</li>
+			</ol>
+		</section>
+		<nav class="social">
+          	<ul>
+              	<li><a href="https://www.facebook.com/greenhousebergen?__mref=message_bubble">Facebook <i class="fa fa-facebook"></i></a></li>
+              	<li><a href="https://www.instagram.com/bergengreenhouse/">Instagram <i class="fa fa-instagram"></i></a></li>
+              	<li><a href="https://no.pinterest.com/bergengreenhous/">Pinterest <i class="fa fa-pinterest"></i></a></li> 
+          	</ul>
+      	</nav>
+		<footer>
+			<p> Contact us on <a href="https://www.facebook.com/greenhousebergen?__mref=message_bubble">Facebook</a> &#xa9; Bergen Greenhouse.</p>
+		</footer>
+		<script>
+			function hamburger(){
+				var menu = document.getElementById("menu");
+
+				if(menu.style.display == "block"){
+					menu.style.display = "none";
+				}else{
+					menu.style.display = "block";
+				}
+			}
+		</script>
+	</body>
+</html>

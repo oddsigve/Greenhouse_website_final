@@ -1,0 +1,258 @@
+* {
+	text-align: center;
+	margin: 0em;
+	padding: 0em;
+}
+body {
+	font-size: 16px;
+}
+/*The following is written by candidate number 210*/
+#frontpage {
+	width: 100%;
+	height: 115vh;
+	top: -15vh;
+	left: 0;
+	position: absolute;
+	background: url("../img/herbmix_72dpi.png");
+	background-repeat: no-repeat;		
+	background-position: top left;
+	background-size: 100% 100%;
+}
+#frontpage p {
+	font-size: 1.4em;
+	margin:0 15% 0 15%;
+	color: white;
+	top:20vw;
+	position: relative;
+}
+#frontpage a {
+	color: hsla(0, 0%, 5%, 1);
+	font-size: 0.1em;
+}
+#frontpage p q {
+	font-size: 1.8em;
+}
+#frontpage p span {
+	top: 3vw;
+	font-size: 1.2em;
+	position:relative;
+}
+#frontpage nav a {
+	top: 23vw;
+	position: relative;
+}
+#frontpage nav a img {
+	width: 8%;
+}
+#description {
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.5em;
+	color: white;
+	padding-bottom: 30%;
+	top: 100vh;
+	width: 100%;
+	height: auto;
+	position: relative;
+	background: url("../img/cuttingboard.jpg");
+	background-repeat: no-repeat;		
+	background-position: top left;
+	background-size: 100% 100%;
+	z-index: -2;
+}
+#description p {
+	padding: 2%;
+	top: 13vw;
+	width: 70%;
+	margin: 0 15% 0 15%;
+	position: relative;
+	background-color: hsla(119, 83%, 26%, 0.7);
+}
+#description h2 {
+	background-color: hsla(119, 83%, 26%, 0.7);
+	padding: 2% 2% 0 2%;
+	top: 13vw;
+	width: 70%;
+	margin: 0 15% 0 15%;
+	position: relative;
+}
+/*The links on cuttingboard*/
+#description a img {
+	transition: all .2s ease-in-out;
+}
+#description a img:hover {
+	transform: scale(1.1);
+}
+.links {
+	z-index: 8000;
+}
+#basillink {
+	width: 30%;
+	top: -5vw;
+	left: 45vw;
+	position:absolute;
+	z-index: -1;
+}
+#chililink {
+	width: 40%;
+	top: -0.3vw;
+	right: 0vw;
+	position:absolute;
+	z-index: -1;
+}
+#chiveslink {
+	width: 30%;
+	top: -1vw;
+	left: -2vw;
+	position:absolute;
+	z-index: -1;
+}
+#corianderlink {
+	width: 30%;
+	bottom: 15vw;
+	left: 69vw;
+	position:absolute;
+	z-index: -1;
+}
+#garliclink {
+	width: 30%;
+	bottom: 0vw;
+	left: 52vw;
+	position:absolute;
+	z-index: -1;
+}
+#gingerlink {
+	width: 35%;
+	bottom: 0vw;
+	left: -5vw;
+	position:absolute;
+	z-index: -1;
+}
+#lemonlink {
+	width: 35%;
+	top: -10vw;
+	left: 15vw;
+	position:absolute;
+	z-index: -1;
+}
+#limelink {
+	width: 20%;
+	bottom: 0vw;
+	right:0vw;
+	position:absolute;
+	z-index: -1;
+}
+#oreganolink {
+	width: 35%;
+	bottom: 0vw;
+	left: 20vw;
+	position:absolute;
+	z-index: -1;
+}
+/*Footer by candidate numer 172*/
+footer {
+	top:100vh;
+	height: 2vw;
+	width: 100%;
+	bottom: 0em;
+	position: relative;
+	background-color: hsla(0, 0%, 100%, 1) ;
+}
+
+footer p {
+	padding:0.5vw;
+	font-family: Gill Sans,Gill Sans MT,Calibri,sans-serif;
+}
+footer p a {
+	color: hsla(0, 0%, 0%, 1);
+}
+/*I like Jell-O*/
+/*The responsiveness is written by candidate number 210*/
+@media screen and (max-width: 768px) {
+	#frontpage {
+		background: url("../img/herbmix_tablet.png");
+		background-repeat: no-repeat;		
+		background-position: top left;
+		background-size: 100% 100%;
+	}
+	#frontpage {
+
+	}
+	#frontpage nav a {
+		visibility: hidden;
+	}
+	#description {
+		background: url("../img/wood-tablet.jpg");
+		background-repeat: no-repeat;		
+		background-position: top left;
+		background-size: 100% 100%;
+	}
+	#basillink {
+	visibility: hidden;
+	}
+
+	#chililink {
+	visibility: hidden;
+	}
+
+	#chiveslink {
+	visibility: hidden;
+	}
+
+	#corianderlink {
+	visibility: hidden;
+	}
+
+	#garliclink {
+	visibility: hidden;
+	}
+
+	#gingerlink {
+	visibility: hidden;
+	}
+
+	#lemonlink {
+	visibility: hidden;
+	}
+
+	#limelink {
+	visibility: hidden;
+	}
+
+	#oreganolink {
+	visibility: hidden;
+	}
+}
+/*The responsiveness is written by candidate number 197*/
+@media screen and (max-width: 480px) {
+	#frontpage {
+		background: url("../img/herbmix_mobile.png");
+		background-repeat: no-repeat;		
+		background-position: top left;
+		background-size: 100% 100%;
+	}
+	h1 {
+		top: 0.8vw;
+		width: 50%;
+		position:relative;
+	}
+	h1 a img {
+		width:70%;
+	}
+	#frontpage p {
+		top: 40vw;
+		font-size: 1em;
+	}
+	#description {
+		font-size: 1.2em;
+		background: url("../img/wood-phone.jpg");
+		background-repeat: no-repeat;		
+		background-position: top left;
+		background-size: 100% 100%;
+	}
+	#description p {
+		left:4vw;
+	}
+	#description h2 {
+		left:4vw;
+	}
+}

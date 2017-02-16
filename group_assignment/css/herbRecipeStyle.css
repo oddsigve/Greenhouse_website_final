@@ -1,0 +1,475 @@
+* {
+	text-align: center;
+	margin: 0em;
+	padding: 0em;
+}
+body {
+	font-size: 16px;
+}
+/*The splash image from the top left corner downwards towards the middle*/
+/*The responsiveness is written by candidate number 172*/
+#splash_basil {
+	width: 55%;
+	bottom: -6vw;
+	left: -3vw;
+	position: absolute;
+	z-index: 1;
+	-ms-transform: rotate(-7deg);
+    -webkit-transform: rotate(-7deg);
+    transform: rotate(-7deg);
+}
+	
+#splash_chili {
+	width: 55%;
+	left: -8vw;
+	bottom: -2vw;
+	position: absolute;
+	z-index: 1;
+	-ms-transform: rotate(-7deg);
+    -webkit-transform: rotate(-7deg);
+    transform: rotate(-7deg);
+}
+
+#splash_chives {
+	width: 70%;
+	left: -8vw;
+	bottom:-3.5vw;
+	position: absolute;
+	z-index: 1;
+	-ms-transform: rotate(-7deg);
+    -webkit-transform: rotate(-7deg);
+    transform: rotate(-7deg);
+}
+
+#splash_coriander {
+	width: 70%;
+	left: -8vw;
+	bottom: -8vw;
+	position: absolute;
+	z-index: 1;
+	-ms-transform: rotate(-7deg);
+    -webkit-transform: rotate(-7deg);
+    transform: rotate(-7deg);
+}
+
+#splash_garlic {
+	width: 55%;
+	left: -3vw;
+	bottom: -5vw;
+	position: absolute;
+	z-index: 1;
+	-ms-transform: rotate(-7deg);
+    -webkit-transform: rotate(-7deg);
+    transform: rotate(-7deg);
+}
+
+#splash_ginger {
+	width: 65%;
+	left: -8vw;
+	bottom: -7vw;
+	position: absolute;
+	z-index: 1;
+	-ms-transform: rotate(-7deg);
+    -webkit-transform: rotate(-7deg);
+    transform: rotate(-7deg);
+}
+
+#splash_lemon {
+	width: 70%;
+	left: -10vw;
+	bottom: -12vw;
+	position: absolute;
+	z-index: 1;
+	-ms-transform: rotate(-7deg);
+    -webkit-transform: rotate(-7deg);
+    transform: rotate(0deg);
+}
+
+#splash_lime {
+	width: 55%;
+	left: -8vw;
+	bottom: -6vw;
+	position: absolute;
+	z-index: 1;
+	-ms-transform: rotate(-7deg);
+    -webkit-transform: rotate(-7deg);
+    transform: rotate(-7deg);
+}
+
+#splash_oregano {
+	width: 50%;
+	left: -1vw;
+	bottom: -6vw;
+	position: absolute;
+	z-index: 1;
+	-ms-transform: rotate(-7deg);
+    -webkit-transform: rotate(-7deg);
+    transform: rotate(-7deg);
+}
+/*Header*/
+h1 {
+	float:left;
+	width: 19%;
+	z-index: 9000;
+	background-color: transparent;
+}
+/*The section with the herb introduction and drawn image of a herb*/
+/*The responsiveness is written by candidate number 172*/
+#herbIntro {
+	color: hsla(0, 0%, 95%, 1);
+ 	min-height: 85vh;
+ 	padding-bottom: 15%;
+ 	position: relative;
+ 	display: inline-block;
+ 	background: url("../img/stone_background1.png");
+	background-repeat: no-repeat;
+	background-position: top left;
+	background-size: 100% 100%;
+	font-family: 'Courgette', cursive;
+}
+#herbIntro a {
+	color: hsla(0, 0%, 5%, 1);
+	font-size: 0.1em;
+}
+#herbIntro h2 {
+	left: 14vw;
+	font-size: 3em;
+	width:30%;
+	top: 9vw;
+	padding: 1em 0 0 0;
+	text-align:left;
+	position:relative;
+	z-index: 2;
+}
+#herbIntro p {
+	text-align: left;
+	font-size: 1.2em;
+	line-height: 150%;
+	width:46%;
+	top: 11vw;
+	left: 7vw;
+	float:left;
+	position:relative;
+	z-index: 2;
+	background-color: hsla(200, 2%, 4%, 0.6);
+	padding: 2vw;
+	-webkit-box-shadow: inset 0px 0px 55px 12px rgba(43,69,112,0.3);
+	-moz-box-shadow: inset 0px 0px 55px 12px rgba(43,69,112,0.3);
+	box-shadow: inset 0px 0px 55px 12px rgba(43,69,112,0.3);
+}
+#herbIntro p span {
+	display: inline-block;
+	margin: 1em 0 1em 0;
+	text-align: left;
+}
+#drawnImg {
+	top: 13vw;
+	left: 5vw;
+	width: 25%;
+	position:relative;
+}
+#herbIntro nav {
+	width: 100%;
+	bottom: 0;
+	position: absolute;
+}
+#herbIntro nav a {
+	left: 12vw;
+	top: -8vw;
+	z-index: 10000;
+	position: relative;
+}
+#herbIntro nav a img {
+	width:8%;
+}
+/*The responsiveness is written by candidate number 197*/
+/*The section with recipes*/
+#recipe {
+	font-size: 1.4em;
+	color: hsla(0, 0%, 95%, 1);
+	width: 80%;
+	position:relative;
+	display: inline-block;
+	background: url("../img/cuttingboard.jpg");
+	background-repeat: no-repeat;		
+	background-position: top left;
+	background-size: 100% 100%;
+	font-family: 'Roboto', sans-serif;
+	padding: 0 10% 10% 10%;
+}
+#recipeH3 {
+	top: 0;
+	left: 10%;
+	float : left;
+	width:50%;
+	display: inline-block;
+	background-color: hsla(26, 45%, 47%, 0.7);
+	position:relative;
+}
+#recipeUl {
+	font-size: 1.4em;
+	left:10%;
+	float:left;
+	width: 50%;
+	background-color: hsla(26, 45%, 47%, 0.7);
+	position:relative;
+}
+#recipe section h3 {
+	width: 80%;
+	margin:auto;
+	font-size: 1.4em;
+	margin-top: 2vw;
+	padding: 0.5em;
+	position:relative;
+}
+#recipe section p {
+	font-size: 0.8em;
+	z-index: 5000;
+	padding: 0 0.5em 1.5em 0.5em;
+	
+	margin:auto;
+	position:relative;
+}
+/*The ingredients list*/
+#recipe section ul {
+	width:100%;
+	float:left;
+	min-height: 25vw;
+	position: relative;
+	padding: 1em 0 1em 0;
+	list-style-type: circle;
+	z-index: 5000;
+}
+#recipe section ul li {
+	font-size: 0.7em;
+	text-align: left;
+	left: 3vw;
+	position: relative;
+	padding-bottom: 0.2em;
+	clear: left;
+	width: 90%;
+}
+#recipe section ul li a {
+	color: hsla(0, 0%, 95%, 1);
+}
+/*The image of the different dishes*/
+#recipe img {
+	width: 40%;
+	top: 3vw;
+	float: left;
+	z-index: 5000;
+	position: relative;
+}
+/*The cooking prosess*/
+#recipe ol {
+	font-size: 1.4em;
+	padding-top: 1em;
+	float: left;
+	width: 100%;
+	position: relative;
+	background-color: hsla(26, 45%, 47%, 0.7);
+}
+#recipe ol li {
+	font-size: 0.7em;
+	left: 3vw;
+	padding-bottom: 1em;
+	text-align: left; 
+	width:90%;
+	position:relative;
+}
+/*Footer*/
+footer {
+	height: 2vw;
+	width: 100%;
+	bottom: 0em;
+	position: relative;
+	background-color: hsla(0, 0%, 100%, 1) ;
+}
+footer p {
+	padding:0.5vw;
+	font-family: Gill Sans,Gill Sans MT,Calibri,sans-serif;
+}
+footer p a {
+	color: hsla(0, 0%, 0%, 1);
+}
+/*The responsiveness is written by candidate number 172*/
+@media screen and (max-width: 960px){
+	#splash_basil {
+		visibility: hidden;
+	}
+	#splash_chili {
+    	visibility: hidden;
+    }
+    #splash_chives {
+    	visibility: hidden;
+    }
+    #splash_coriander {
+    	visibility: hidden;
+    }
+    #splash_garlic {
+    	visibility: hidden;
+    }
+    #splash_ginger {
+    	visibility: hidden;
+    }
+    #splash_lemon{
+    	visibility: hidden;
+    }
+    #splash_lime {
+    	visibility: hidden;
+    }
+    #splash_oregano {
+    	visibility: hidden;
+    }
+    #recipe {
+		font-size: 1.4em;
+	}
+	/*The responsiveness below this is written by candidate number 197*/
+	#recipeH3 {
+		left:20%;
+		width:60%;
+		top: 5vw;
+		position:absolute;
+	}
+	#recipeUl {
+		left:10%;
+		width:80%;
+		top: 24vw;
+		margin-bottom: 22vw;
+	}
+	
+	#recipe span ul {
+		width: 100%;
+	}
+	#recipe img {
+		top: 22vw;
+		width: 60%;
+		left: 20%;
+	}
+	#recipe ol {
+		width:80%;
+		left:10%;
+	}
+}
+ @media (max-width: 720px) {
+ 	#herbIntro {
+ 		background: url("../img/stone_background1_tablet.png");
+		background-repeat: no-repeat;		
+		background-position: top left;
+		background-size: 100% 100%;
+ 	}
+ 	#recipe {
+ 		font-size: 1em;
+ 		background: url("../img/wood-tablet.jpg");
+		background-repeat: no-repeat;		
+		background-position: top left;
+		background-size: 100% 100%;
+ 	}
+ 	#herbIntro p {
+ 		left: 10vw;
+ 	}
+ 	 #herbIntro nav a {
+    	visibility: hidden;
+    }
+}
+@media screen and (max-width: 640px) {
+    #herbIntro p {
+ 		left: 10vw;
+ 		font-size: 1em;
+ 	}
+ 	#recipe {
+ 		font-size: 0.7em;
+ 	}
+ 	#recipe section ul li {
+ 		left: 5vw;
+    	font-size: 1em;
+    }
+    #recipe ol li {
+    	left: 5vw;
+    	font-size: 1em;
+    }
+}
+@media screen and (max-width: 480px) {
+	#herbIntro {
+		background: url("../img/stone_background1_mobile.png");
+		background-repeat: no-repeat;		
+		background-position: top left;
+		background-size: 100% 100%;
+	}
+	#recipe {
+		background: url("../img/wood-phone.jpg");
+		background-repeat: no-repeat;		
+		background-position: top left;
+		background-size: 100% 100%;
+	}
+	#herbIntro p {
+    	margin-top: 15vw;
+    	width: 75%;
+    	left: 17vw;
+    	position: relative;
+    }
+    #drawnImg {
+    	width: 25%;
+    	top: 15vw;
+    	left: 65vw;
+    	position:absolute;
+    }
+    #herbIntro h2 {
+    	font-size: 2em;
+    	left: 20vw;
+ 		top:15vw;
+ 		position:relative;
+    }
+    #herbIntro nav {
+    	width:100%;
+    	height: 2vw;
+    	top:23vw;
+    	left: -18vw;
+    	position: relative;
+    }
+    #herbIntro nav a {
+    	left: -10vw;
+    	position: relative;
+    	visibility: initial;
+    }
+    #recipeUl {
+    	top:30vw;
+    }
+    #recipe img {
+		top: 25vw;
+		width: 60%;
+		left: 20%;
+	}
+	#recipe ol {
+		top: 8vw;
+		width:80%;
+		left:10%;
+	}
+    #recipe section h3 {
+ 		font-size: 0.8em;
+ 	}
+    #recipe section ul li {
+ 		left: 5vw;
+    	font-size: 0.7em;
+    }
+    #recipe ol li {
+    	left: 5vw;
+    	font-size: 0.7em;
+    }
+}
+@media screen and (max-width: 360px) {
+	#recipe {
+    	font-size: 1em;
+    }
+     #recipe section ul li {
+ 		left: 5vw;
+    	font-size: 0.6em;
+    }
+    #recipe ol li {
+    	left: 5vw;
+    	font-size: 0.6em;
+    }
+}
+
+
+

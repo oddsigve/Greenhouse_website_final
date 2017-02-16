@@ -1,0 +1,194 @@
+/*This Css file is written by candidate number 197*/
+/*Fixed top navigation logo*/
+h1 {
+  float:left;
+  width: 19%;
+  z-index: 9000;
+  background-color: transparent;
+}
+h1 a img {
+  top: 0.2vw;
+  width:50%;
+  left: 4vw;
+  position:relative;
+}
+/*Top navigational bar*/
+.fixed-nav-bar {
+  font-family: Gill Sans,Gill Sans MT,Calibri,sans-serif;
+  top: 0;
+  right: 0;
+  width: 100%;
+  z-index: 11000;/* I was like, why the f... not*/
+  position: fixed;
+  display: inline-block;
+  background: url("../img/herbmixTop.png");
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-size: 100% 100%;
+  border-bottom: 0.1vw solid white;
+}
+.fixed-nav-bar ul li {
+  text-align: left;
+  top: 1vw;
+  position:relative;
+  float:left;
+  width:8%;
+  list-style-type: none;
+}
+.fixed-nav-bar ul li a {
+  color:white;
+  text-decoration: none;
+  position:relative;
+  display: block;
+}
+#hamburgerbutton {
+  z-index:11000;
+  top: 2vw;
+  right: 2vw;
+  position: fixed;
+  width: 30px;
+  height: 5px;
+  border-top: 7px solid white;
+  border-bottom: 16px double white;
+  display:none;
+}
+#menu {
+  display:none;
+}
+#menu ul {
+  font-size: 1.2em;
+  background-color: hsla(237, 16%, 26%, 0.9);
+  top: 14vw;
+  right: 0.5em;
+  z-index: 10000;
+  position: fixed;
+  list-style-type: none;
+  padding: 1em;
+}
+#menu ul li {
+  padding-bottom: 0.2em;
+}
+#menu ul li a {
+  color: white;
+  text-decoration: none;
+}
+/*Social bar with Facebook, Twiter etc.*/
+.social {
+  position: fixed;
+  top: 22vw;
+  z-index: 9000;
+  font-family: 'Raleway', sans-serif;
+}
+.social ul {
+  -webkit-transform: translate(-270px, 0);
+  -moz-transform: translate(-270px, 0);
+  -ms-transform: translate(-270px, 0);
+  -o-transform: translate(-270px, 0);
+  transform: translate(-270px, 0);
+}
+.social ul li {
+  text-align: right;
+  display: block;
+  margin: 5px;
+  background: rgba(0, 0, 0, 0.36);
+  width: 300px;
+  padding: 10px;
+  float:left;
+  clear:both;
+  -webkit-border-radius: 0 30px 30px 0;
+  -moz-border-radius: 0 30px 30px 0;
+  border-radius: 0 30px 30px 0;
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -ms-transition: all 1s;
+  -o-transition: all 1s;
+  transition: all 1s;
+}
+.social ul li a {
+	font-size: 1.1em;
+	color: black;
+	position:relative;
+	text-decoration: none;
+}
+.social ul li a i {
+  position:relative;
+}
+.social ul li:hover {
+  -webkit-transform: translate(95px, 0);
+  -moz-transform: translate(95px, 0);
+  -ms-transform: translate(95px, 0);
+  -o-transform: translate(95px, 0);
+  transform: translate(95px, 0);
+  background: rgba(255, 255, 255, 0.4);
+}
+.social ul li:hover a {
+  color: #000;
+}
+.social ul li:hover i {
+  color: #fff;
+  background: rgba(0, 0, 0, 0.36);
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -ms-transition: all 1s;
+  -o-transition: all 1s;
+  transition: all 1s;
+}
+.social ul li i {
+  margin-left: 10px;
+  color: #000;
+  background: #fff;
+  padding: 10px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  font-size: 20px;
+  background: #ffffff;
+  float:right;
+}
+@media screen and (max-width: 640px) {
+  #hamburgerbutton {
+    display: block;
+    top: 1vw;
+    right: 2vw;
+  }
+  #menu ul {
+    top: 8vw;
+  }
+  #nav_background ul {
+    display: none;
+  }
+  #nav_background header h1 a {
+    text-align: left;
+    display: block;
+    top: 0.5vw;
+    width: 70%;
+    max-height: 2vw;
+    position: fixed;
+  }
+  h1 {
+    float:left;
+    width: 19%;
+    z-index: 9000;
+    background-color: transparent;
+  }
+  h1 a img {
+    top: 0.5vw;
+    width:100%;
+    left: 4vw;
+    position:relative;
+  }
+  .social ul li:hover {
+    -webkit-transform: none !important;
+    -moz-transform: none !important;
+    -ms-transform: none !important;
+    -o-transform: none !important;
+    transform: none !important;
+  }
+}
+@media screen and (max-width: 480px) {
+  h1 a img {
+    width: 150%;
+  }
+}

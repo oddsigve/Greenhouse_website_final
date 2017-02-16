@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Greenhouse</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<!-- No robots allowed like webcrawlers -->
+		<meta name="ROBOTS" content="NOINDEX, NOFOLLOW">
+		<!-- stylesheets, fontstyling, firm Icon -->
+		<link href="css/herbRecipeStyle.css" rel="stylesheet" type="text/css">
+		<link href="css/navStyle.css" rel="stylesheet" type="text/css">
+		<link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
+		<link rel="shortcut icon" href="icon/greenhouse_logo.ico"/>
+		<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
+		<link href='http://fonts.googleapis.com/css?family=Raleway:400,200' rel='stylesheet' type='text/css'> 
+  		<link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet"> 
+	</head>
+	<body>
+		<nav id="nav_background" class="fixed-nav-bar">
+			<h1><a href="index.html"><img src="img/greenhouse2.png" alt="Greenhouse Logo"></a></h1>
+			<ul>
+				<li><a href="basil.html">Basil</a></li>
+				<li><a href="chili.html">Chili</a></li>
+				<li><a href="chives.html">Chives</a></li>
+				<li><a href="coriander.html">Coriander</a></li>
+				<li><a href="garlic.html">Garlic</a></li>
+				<li><a href="ginger.html">Ginger</a></li>
+				<li><a href="lemon.html">Lemon</a></li>
+				<li><a href="lime.html">Lime</a></li>
+				<li><a href="oregano.html">Oregano</a></li>
+			</ul>
+		</nav>
+		<p id="hamburgerbutton" onClick="hamburger()"></p>
+		<nav style="display: none" id="menu">
+			<ul>
+				<li><a href="basil.html">Basil</a></li>
+				<li><a href="chili.html">Chili</a></li>
+				<li><a href="chives.html">Chives</a></li>
+				<li><a href="coriander.html">Coriander</a></li>
+				<li><a href="garlic.html">Garlic</a></li>
+				<li><a href="ginger.html">Ginger</a></li>
+				<li><a href="lemon.html">Lemon</a></li>
+				<li><a href="lime.html">Lime</a></li>
+				<li><a href="oregano.html">Oregano</a></li>
+			</ul>
+		</nav>
+		<!--The following section is written by candidate number 172-->
+		<img id="splash_chives" src="img/chives_1.png" alt="Picture of Ginger">
+		<section id="herbIntro">
+			<h2>Chives</h2>
+			<p>
+				Chives can be found widely spread in nature in Europe, North America and Asia. It’s commonly grown in home gardens and can be found in many grocery stores.<span> The scapes of chives are used for cooking, but the flowers can also be utilized to for instance, garnish a dish.
+				Usage of chives in European cuisine dates back as far as 5000 years ago, although it cultivated in the Middle Ages.</span> The Romans used chives as a medicine for sore throat and sunburn and in Romanian Gypsy-culture chives have been used for fortune telling and warding off evil and disease.
+			</p>
+			<img id="drawnImg" src="img/chives.png" alt="Picture of Chives">
+			<nav>
+				<a href="#recipe"><img src="img/next.png" alt="Picture of an arrow pointing downwards"></a>
+			</nav>
+			<a href="http://www.freepik.com/free-photo/condiments-to-prepare-italian-pasta_972321.htm">Designed by Freepik</a>
+		</section>
+		<!--The following section is written by candidate number 197-->
+		<section id="recipe">
+			<img src="img/chives_dish.png" alt="Picture of Chives-rösti potatoes">
+			<section id="recipeH3">
+				<h3>Chives-rösti potatoes</h3>
+				<p>
+					30 minutes/4 portions
+				</p>
+			</section>
+			<section id="recipeUl">	
+				<ul>
+					<li>4 big boiled potatoes</li>
+					<li>2 eggs</li>
+					<li>0,5dl parmesan-cheese</li>
+					<li>1 pot of fresh chives</li>
+					<li>1 chopped onion</li>
+					<li>Salt</li>
+					<li>Pepper</li>
+					<li>Butter or oil for frying</li>
+				</ul>
+			</section>
+			<ol>
+				<li>Peel and grate the potatoes</li>
+				<li>Roast the chopped onion in oil until golden and crisp</li>
+				<li>Mix the potatoes with roasted onion, eggs, parmesan, chives with a hint of pepper and salt</li>
+				<li>Form patties of the mixture and fry them on a pan in medium-heat around 5 minutes per side</li>
+			</ol>
+		</section>
+		<nav class="social">
+          	<ul>
+             	<li><a href="https://www.facebook.com/greenhousebergen?__mref=message_bubble">Facebook <i class="fa fa-facebook"></i></a></li>
+              	<li><a href="https://www.instagram.com/bergengreenhouse/">Instagram <i class="fa fa-instagram"></i></a></li>
+              	<li><a href="https://no.pinterest.com/bergengreenhous/">Pinterest <i class="fa fa-pinterest"></i></a></li> 
+          	</ul>
+      	</nav>
+		<footer>
+			<p> Contact us on <a href="https://www.facebook.com/greenhousebergen?__mref=message_bubble">Facebook</a> &#xa9; Bergen Greenhouse.</p>
+		</footer>
+		<script>
+			function hamburger(){
+				var menu = document.getElementById("menu");
+
+				if(menu.style.display == "block"){
+					menu.style.display = "none";
+				}else{
+					menu.style.display = "block";
+				}
+			}
+		</script>
+	</body>
+</html>
